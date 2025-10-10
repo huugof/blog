@@ -1,0 +1,27 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'For All The Fish'
+theme = "hugo-bearcub"
+copyright = "subscribe via [RSS](/index.xml/)"
+
+enableRobotsTXT = true
+
+disableKinds = ["home"]
+
+[params]
+  description = "A blog."
+  favicon = "images/favicon.png"
+  images = ["images/share.webp"]
+  title = "For All The Fish"
+  dateFormat = "2006-01-02"
+  themeStyle = "original"
+  generateSocialCard = true
+  # madeWith = "Made with [Hugo](https://gohugo.io/)"
+
+  [params.social]
+    # twitter = "example" # Twitter handle (without '@')
+    # facebook_admin = "0000000000" # Facebook Page Admin ID
+
+  [params.author]
+    name = "Hugo" # Your name as shown in the RSS feed metadata
+    # email = "hugo@forallthefish.com"

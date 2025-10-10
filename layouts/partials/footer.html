@@ -1,0 +1,25 @@
+<small>
+  {{- $copyright := .Site.Copyright -}}
+  {{- $madeWith := .Site.Params.madeWith -}}
+  {{- $copyrightHTML := "" -}}
+  {{- $madeWithHTML := "" -}}
+  {{- with $copyright -}}
+    {{- $copy := markdownify . -}}
+    {{- $copy = replaceRE "(?s)^\\s*<p>(.*)</p>\\s*$" "$1" $copy -}}
+    {{- $copy = strings.TrimSpace $copy -}}
+    {{- $copyrightHTML = $copy -}}
+  {{- end -}}
+  {{- with $madeWith -}}
+    {{- $made := markdownify . -}}
+    {{- $made = replaceRE "(?s)^\\s*<p>(.*)</p>\\s*$" "$1" $made -}}
+    {{- $made = strings.TrimSpace $made -}}
+    {{- $madeWithHTML = $made -}}
+  {{- end -}}
+  {{- if and $copyrightHTML $madeWithHTML -}}
+    {{ $copyrightHTML | safeHTML }} | {{ $madeWithHTML | safeHTML }}
+  {{- else if $copyrightHTML -}}
+    {{ $copyrightHTML | safeHTML }}
+  {{- else if $madeWithHTML -}}
+    {{ $madeWithHTML | safeHTML }}
+  {{- end -}}
+</small>
