@@ -15,7 +15,7 @@ disableKinds = ["home"]
   images = ["images/share.webp"]
   title = "For All The Fish"
   dateFormat = "2006-01-02"
-  themeStyle = "original"
+  themeStyle = "system"
   generateSocialCard = true
   # madeWith = "Made with [Hugo](https://gohugo.io/)"
 

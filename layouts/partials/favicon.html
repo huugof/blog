@@ -4,12 +4,12 @@
     faviconLight = "images/favicon-light.png"
     faviconDark = "images/favicon-dark.png"
     faviconApple = "images/favicon-apple.png" # optional
+  The dark icon doubles as the fallback for legacy browsers.
 */}}
-{{ $default := .Site.Params.favicon | default "images/favicon-light.png" }}
-{{ $light := .Site.Params.faviconLight | default $default }}
-{{ $dark := .Site.Params.faviconDark }}
+{{ $fallback := .Site.Params.faviconDark | default (.Site.Params.favicon | default "images/favicon.png") }}
+{{ $light := .Site.Params.faviconLight | default $fallback }}
 {{ $apple := .Site.Params.faviconApple }}
 <link rel="icon" type="image/png" href="{{ $light | absURL }}" media="(prefers-color-scheme: light)">
-{{ with $dark }}<link rel="icon" type="image/png" href="{{ . | absURL }}" media="(prefers-color-scheme: dark)">
-{{ end }}<link rel="icon" type="image/png" href="{{ $light | absURL }}">
-{{ with $apple }}<link rel="apple-touch-icon" href="{{ . | absURL }}">{{ end }}
+<link rel="icon" type="image/png" href="{{ $fallback | absURL }}" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="{{ $fallback | absURL }}">
+{{ with $apple }}<link rel="apple-touch-icon" href="{{ . | absURL }}">{{ else }}<link rel="apple-touch-icon" href="{{ $light | absURL }}">{{ end }}

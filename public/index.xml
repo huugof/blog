@@ -2,35 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on For All The Fish</title>
-    <link>http://localhost:58372/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Blog on For All The Fish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>subscribe via [RSS](/index.xml/)</copyright>
-    <lastBuildDate>Wed, 08 Oct 2025 22:22:22 -0400</lastBuildDate>
-    <atom:link href="http://localhost:58372/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My New Post</title>
-      <link>http://localhost:58372/blog/my-new-post/</link>
-      <pubDate>Wed, 08 Oct 2025 22:22:22 -0400</pubDate>
-      <guid>http://localhost:58372/blog/my-new-post/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
+      <title>Testing</title>
+      <link>http://localhost:1313/blog/testing/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/testing/</guid>
+      <description>&lt;h1 id=&#34;publish-this&#34;&gt;Publish this&lt;/h1&gt;&#xA;&lt;h2 id=&#34;so-we-can-see&#34;&gt;So we can see&lt;/h2&gt;&#xA;&lt;p&gt;How it looks.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<h1 id="publish-this">Publish this</h1>
+<h2 id="so-we-can-see">So we can see</h2>
+<p>How it looks.</p>
+]]></content:encoded>
     </item>
     <item>
       <title>Yet Another Post</title>
-      <link>http://localhost:58372/blog/yet-another-post/</link>
+      <link>http://localhost:1313/blog/yet-another-post/</link>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/yet-another-post/</guid>
+      <guid>http://localhost:1313/blog/yet-another-post/</guid>
       <description>&lt;p&gt;Testing a new blog post.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Testing a new blog post.</p>
 ]]></content:encoded>
     </item>
     <item>
       <title>Markdown Syntax Guide</title>
-      <link>http://localhost:58372/blog/markdown-syntax/</link>
+      <link>http://localhost:1313/blog/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/markdown-syntax/</guid>
+      <guid>http://localhost:1313/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
 <h2 id="headings">Headings</h2>
@@ -180,9 +183,9 @@
     </item>
     <item>
       <title>Rich Content</title>
-      <link>http://localhost:58372/blog/rich-content/</link>
+      <link>http://localhost:1313/blog/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/rich-content/</guid>
+      <guid>http://localhost:1313/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Hugo ships with several <a href="https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes">Built-in Shortcodes</a> for rich content, along with a <a href="https://gohugo.io/about/hugo-and-gdpr/">Privacy Config</a> and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</p>
 <hr>
@@ -236,9 +239,9 @@
     </item>
     <item>
       <title>Placeholder Text</title>
-      <link>http://localhost:58372/blog/placeholder-text/</link>
+      <link>http://localhost:1313/blog/placeholder-text/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/placeholder-text/</guid>
+      <guid>http://localhost:1313/blog/placeholder-text/</guid>
       <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Lorem est tota propiore conpellat pectoribus de pectora summo.</p>
 <p>Redit teque digerit hominumque toris verebor lumina non cervice subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.</p>
@@ -266,9 +269,9 @@
     </item>
     <item>
       <title>Math Typesetting</title>
-      <link>http://localhost:58372/blog/math-typesetting/</link>
+      <link>http://localhost:1313/blog/math-typesetting/</link>
       <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/math-typesetting/</guid>
+      <guid>http://localhost:1313/blog/math-typesetting/</guid>
       <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.</p>
 <p>In this example we will be using <a href="https://katex.org/">KaTeX</a></p>
@@ -299,9 +302,9 @@ $$</p>]]></content:encoded>
     </item>
     <item>
       <title>Emoji Support</title>
-      <link>http://localhost:58372/blog/emoji-support/</link>
+      <link>http://localhost:1313/blog/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:58372/blog/emoji-support/</guid>
+      <guid>http://localhost:1313/blog/emoji-support/</guid>
       <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
       <content:encoded><![CDATA[<p>Emoji can be enabled in a Hugo project in a number of ways.</p>
 <p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
