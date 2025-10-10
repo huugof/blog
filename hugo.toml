@@ -10,8 +10,9 @@ disableKinds = ["home"]
 
 [params]
   description = "A blog."
-  favicon = "images/favicon.png"
-  # images = ["images/share.webp"]
+  faviconLight = "images/favicon-light.png"
+  faviconDark = "images/favicon-dark.png"
+  images = ["images/share.webp"]
   title = "For All The Fish"
   dateFormat = "2006-01-02"
   themeStyle = "original"
