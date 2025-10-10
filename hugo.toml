@@ -10,8 +10,8 @@ disableKinds = ["home"]
 
 [params]
   description = "A blog."
-  favicon = "images/favicon.png"
-  images = ["images/share.webp"]
+  # favicon = "images/favicon.png"
+  # images = ["images/share.webp"]
   title = "For All The Fish"
   dateFormat = "2006-01-02"
   themeStyle = "original"
@@ -25,3 +25,7 @@ disableKinds = ["home"]
   [params.author]
     name = "Hugo" # Your name as shown in the RSS feed metadata
     # email = "hugo@forallthefish.com"
+
+[caches]
+    [caches.images]
+        dir = ':cacheDir/images'
